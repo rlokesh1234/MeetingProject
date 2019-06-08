@@ -31,6 +31,7 @@
         "path-to-regexp": "3.0.0",
         "perfect-scrollbar": "1.4.0",
         "prismjs": "1.15.0",
+        "pspdfkit": "https://customers.pspdfkit.com/npm/TRIAL-9TFiPe3OywhBrEtYiAQFXhwtASi5tfEeGZD_EZh832K3JF1RqAvAcSJD8P-SyPDRkbNjAyd1Hw0XkgQgi0NUkA/latest.tar.gz",
         "qs": "6.7.0",
         "raw-loader": "1.0.0",
         "react": "16.8.5",
@@ -68,6 +69,7 @@
         "@babel/core": "7.2.2",
         "@babel/node": "7.2.2",
         "@babel/preset-env": "7.3.1",
+        "ncp": "^2.0.0",
         "cross-env": "5.2.0",
         "gh-pages": "^2.0.1",
         "globby": "8.0.2",
@@ -78,8 +80,11 @@
         "webpack-bundle-analyzer": "3.1.0"
     },
     "scripts": {
+        "verify-installation": "node scripts/verify-install.js && node scripts/copy-pspdfkit-files.js",
+        "prestart": "npm run verify-installation",
         "start": "yarn run tailwind && cross-env NODE_PATH=src react-scripts start",
         "predeploy": "npm run build",
+        "prebuild": "npm run verify-installation",
         "deploy": "gh-pages -d build",
         "build": "yarn run tailwind && node ./purge-tailwindcss.js && cross-env NODE_PATH=src GENERATE_SOURCEMAP=false react-scripts build",
         "tailwind": "./node_modules/.bin/tailwind build ./src/styles/tailwind.base.css -c ./tailwind.js -o ./src/styles/tailwind.css",

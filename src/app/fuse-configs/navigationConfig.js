@@ -382,8 +382,16 @@ const navigationConfig = [
                 'type' : 'item',
                 'icon' : 'note',
                 'url'  : '/apps/notes'
-            }
-        ]
+            },
+            {
+                'id'   : 'pdf',
+                'title': 'PdfKit',
+                'type' : 'item',
+                'icon' : 'today',
+                'url'  : '/apps/psppdfkit'
+            },
+        ],
+        
     },
     // {
     //     'id'      : 'pages',
