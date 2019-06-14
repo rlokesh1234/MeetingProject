@@ -11,6 +11,7 @@ import {ScrumboardAppConfig} from './scrumboard/ScrumboardAppConfig';
 import {AcademyAppConfig} from './academy/AcademyAppConfig';
 import {NotesAppConfig} from './notes/NotesAppConfig';
 import {ProjectAppConfig} from './psppdfkt/psppdfkit/ProjectAppConfig';
+import {AddSowConfig} from './AddSow/AddSowConfig';
 
 export const appsConfigs = [
     AnalyticsDashboardAppConfig,
@@ -25,5 +26,6 @@ export const appsConfigs = [
     ScrumboardAppConfig,
     AcademyAppConfig,
     NotesAppConfig,
-    ProjectAppConfig
+    ProjectAppConfig,
+    AddSowConfig
 ];

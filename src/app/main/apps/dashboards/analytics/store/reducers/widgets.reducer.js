@@ -4,10 +4,12 @@ import * as Actions from '../actions';
 const initialState = {
     data: null,
     adminData:[
-        {"Name":"Shops Statistic","img":"assets/images/admin/staff.png","data":[{"field":"Total","value":20,"class":"danger"},{"field":"Featured","value":4,"class":"success"},{"field":"Actived","value":9,"class":"success"},{"field":"InActived","value":11,"class":"warning"},{"field":"Verified","value":13,"class":"success"},{"field":"Unverified","value":7,"class":"warning"}]},
-        {"Name":"Users Statistic","img":"assets/images/admin/staff.png","data":[{"field":"Total","value":41,"class":"danger"},{"field":"Actived","value":41,"class":"success"},{"field":"InActived","value":0,"class":"warning"}]},
-        {"Name":"Products Statistic","img":"assets/images/admin/expense.png","data":[{"field":"Total","value":54,"class":"danger"}]},
-        {"Name":"Orders Statistic","img":"assets/images/admin/income.png","data":[{"field":"Total","value":47,"class":"danger"},{"field":"Total Sub Order","value":65,"class":"danger"},{"field":"Completed","value":26,"class":"success"},{"field":"Shipping","value":4,"class":"success"},{"field":"Progressing","value":0,"class":"info"},{"field":"Pending","value":28,"class":"info"},{"field":"Refunded","value":2,"class":"warning"},{"field":"Cancelled","value":5,"class":"warning"}]}
+        {"title":"Scope of Work","data":[{"field":"Approved SOW","value":100,"class":"success"},{"field":"Rejected SOW","value":100,"class":"danger"}]},
+        {"title":"Evaluation Report","data":[{"field":"Approved SOW","value":100,"class":"success"},{"field":"Rejected SOW","value":100,"class":"danger"}]},
+        {"title":"Total","data":[{"field":"Approved SOW","value":100,"class":"success"},{"field":"Rejected SOW","value":100,"class":"danger"}]},
+        {"title":"Scope of Work","data":[{"field":"Approved SOW","value":100,"class":"success"},{"field":"Rejected SOW","value":100,"class":"danger"}]},
+        {"title":"Evaluation Report","data":[{"field":"Approved SOW","value":100,"class":"success"},{"field":"Rejected SOW","value":100,"class":"danger"}]},
+        {"title":"Total","data":[{"field":"Approved SOW","value":100,"class":"success"},{"field":"Rejected SOW","value":100,"class":"danger"}]},
     ],
     campaignData:{"rows":[{"title":"Furnishing","clicks":"3621","conversion":"90"},{"title":"Heavy Equipments","clicks":"703","conversion":"7"},{"title":"Construction","conversion":"0","clicks":"532"},{"title":"Electronics","clicks":"201","conversion":"8"}]},
     sellerData:{"data":[{"title":"Patrick Store","total":"$110.00","commission":"$16.50","balance":"$93.50","siteBal":"$0.00","status":"Approved","createdAt":"May 22, 2019"},

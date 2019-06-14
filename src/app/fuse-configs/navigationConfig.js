@@ -17,311 +17,25 @@ const navigationConfig = [
                         'type' : 'item',
                         'url'  : '/apps/dashboards/analytics'
                     },
-                    {
-                        'id'   : 'project-dashboard',
-                        'title': 'Service',
-                        'type' : 'item',
-                        'url'  : '/apps/dashboards/project'
-                    }  
                 ]
             },
             {
-                'id' : 'users',
-                'title':'Users',
-                'type': 'collapse',
-                'icon': 'assets/images/icons/conference-16.png',
-                'children':[
-                    {
-                        'id'   : 'listUsers',
-                        'title': 'List Users',
-                        'type' : 'item',
-                        'url'  : '/pages/coming-soon'
-                    },
-                    {
-                        'id'   : 'createNew',
-                        'title': 'Create New',
-                        'type' : 'item',
-                        'url'  : '/pages/coming-soon'
-                    }  
-                ]
-            },
-            {
-                'id' : 'shops',
-                'title':'Shops',
-                'type': 'collapse',
-                'icon': 'assets/images/icons/shop-16.png',
-                'children':[
-                    {
-                        'id'   : 'shops',
-                        'title': 'Shops',
-                        'type' : 'item',
-                        'url'  : '/pages/coming-soon'
-                    },
-                    {
-                        'id'   : 'createShop',
-                        'title': 'Shop Create',
-                        'type' : 'item',
-                        'url'  : '/pages/coming-soon'
-                    }  
-                ]
-            },
-            {
-                'id' : 'products',
-                'title':'Products',
-                'type': 'collapse',
-                'icon': 'assets/images/icons/product-16.png',
-                'children':[
-                    {
-                        'id'   : 'products',
-                        'title':'Products',
-                        'type':'item',
-                        'url':'/pages/coming-soon',
-                    },
-                    {
-                        'id'   : 'createProducts',
-                        'title':'Products Create',
-                        'type':'item',
-                        'url':'/pages/coming-soon',
-                    },
-                    {
-                        'id'   : 'categories',
-                        'title':'Products categories',
-                        'type':'item',
-                        'url':'/pages/coming-soon',
-                    },
-                    {
-                        'id'   : 'createProductsCategories',
-                        'title':'Products new category',
-                        'type':'item',
-                        'url':'/pages/coming-soon',
-                    },
-                    {
-                        'id'   : 'options',
-                        'title':'Products options',
-                        'type':'item',
-                        'url':'/pages/coming-soon',
-                    },
-                    {
-                        'id'   : 'optionCreate',
-                        'title':'Create new option',
-                        'type':'item',
-                        'url':'/pages/coming-soon',
-                    },
-                ]
-            },
-            {
-                'id' : 'orders',
-                'title':'Orders',
-                'type': 'collapse',
-                'icon': 'assets/images/icons/purchase-order-16.png',
-                'children':[
-                    {
-                        'id'   : 'orders',
-                        'title': 'Orders',
-                        'type' : 'item',
-                        'url'  : '/pages/coming-soon'
-                    },
-                    {
-                        'id'   : 'refunds',
-                        'title': 'Refunds',
-                        'type' : 'item',
-                        'url'  : '/pages/coming-soon'
-                    }  
-                ]
-            },
-            {
-                'id' : 'banners',
-                'title':'Banners',
-                'icon': 'assets/images/icons/bannericons8-billboard-30.png',
-                'type': 'collapse',
-                'children':[
-                    {
-                        'id'   : 'banners',
-                        'title': 'Banners',
-                        'type' : 'item',
-                        'url'  : '/pages/coming-soon'
-                    },
-                    {
-                        'id'   : 'newBanners',
-                        'title': 'New Banners',
-                        'type' : 'item',
-                        'url'  : '/pages/coming-soon'
-                    }  
-                ]
-            },
-            {
-                'id' : 'posts',
-                'title':'Posts',
-                'type': 'collapse',
-                'icon': 'assets/images/icons/new-post-16.png',
-                'children':[
-                    {
-                        'id'   : 'listing',
-                        'title': 'Listing',
-                        'type' : 'item',
-                        'url'  : '/pages/coming-soon'
-                    }
-                ]
-            },
-            {
-                'id' : 'newsLetter',
-                'title':'Newsletter',
-                'type': 'collapse',
-                'icon': 'assets/images/icons/newsletter_icons8-subscription-50.png',
-                'children':[
-                    {
-                        'id'   : 'contacts',
-                        'title': 'Contacts',
-                        'type' : 'item',
-                        'url'  : '/pages/coming-soon'
-                    },
-                    {
-                        'id'   : 'sendMail',
-                        'title': 'Sendmail',
-                        'type' : 'item',
-                        'url'  : '/pages/coming-soon'
-                    }  
-                ]
-            },
-            {
-                'id' : 'complaints',
-                'title':'Complaints',
-                'type': 'collapse',
-                'icon': 'assets/images/icons/complain_icons8-strike-50.png',
-                'children':[
-                    {
-                        'id'   : 'listing',
-                        'title': 'Listing',
-                        'type' : 'item',
-                        'url'  : '/pages/coming-soon'
-                    }
-                ]
-            },
-            {
-                'id' : 'requestPayout',
-                'title':'Request Payout',
-                'type': 'collapse',
-                'icon': 'assets/images/icons/payout_icons8-request-money-50.png',
-                'children':[
-                    {
-                        'id'   : 'listing',
-                        'title': 'Listing',
-                        'type' : 'item',
-                        'url'  : '/pages/coming-soon'
-                    }
-                ]
-            },
-            {
-                'id' : 'report',
-                'title':'Report',
-                'type': 'collapse',
+                'id' : 'addSow',
+                'title':'Add SOW',
+                'type': 'item',
                 'icon': 'assets/images/icons/reports_icons8-combo-chart-26.png',
-                'children':[
-                    {
-                        'id'   : 'sales',
-                        'title': 'Sales',
-                        'type' : 'item',
-                        'url'  : '/pages/coming-soon'
-                    },
-                    {
-                        'id'   : 'payout',
-                        'title': 'Payout',
-                        'type' : 'item',
-                        'url'  : '/pages/coming-soon'
-                    }  
-                ]
+                 url:'/apps/addSow'
             },
+            
             {
-                'id' : 'config',
-                'title':'Config',
-                'type': 'collapse',
-                'icon': 'assets/images/icons/data-configuration-16.png',
-                'children':[
-                    {
-                        'id'   : 'config',
-                        'title': 'Config',
-                        'type' : 'item',
-                        'url'  : '/pages/coming-soon'
-                    },
-                    {
-                        'id'   : 'i18N',
-                        'title': 'i18n',
-                        'type' : 'collapse',
-                        'url'  : '/pages/coming-soon',
-                        'children':[
-                            {
-                                'id'   : 'languages',
-                                'title': 'Languages',
-                                'type' : 'item',
-                                'url'  : '/pages/coming-soon'
-                            },
-                            {
-                                'id'   : 'text',
-                                'title': 'Text',
-                                'type' : 'item',
-                                'url'  : '/pages/coming-soon'
-                            },
-                        ]
-                    }  
-                ]
-            },
-            {
-                'id' : 'packages',
-                'title':'Packages',
-                'type': 'collapse',
-                'icon': 'assets/images/icons/package-2-16.png',
-                'children':[
-                    {
-                        'id'   : 'packages',
-                        'title': 'Packages',
-                        'type' : 'item',
-                        'url'  : '/pages/coming-soon'
-                    },
-                    {
-                        'id'   : 'packagesCreate',
-                        'title': 'Packages Create',
-                        'type' : 'item',
-                        'url'  : '/pages/coming-soon'
-                    },
-                    {
-                        'id'   : 'packagesHistory',
-                        'title': 'Packages Payment History',
-                        'type' : 'item',
-                        'url'  : '/pages/coming-soon'
-                    },
-                     
-                ]
-            },
-            {
-                'id' : 'myProfile',
-                'title':'MyProfile',
+                'id' : 'Add report',
+                'title':'Add Report',
                 'type': 'collapse',
                 'icon': 'assets/images/icons/user-3-16.png',
-                'children':[
-                    {
-                        'id'   : 'myProfile',
-                        'title': 'My Profile',
-                        'type' : 'item',
-                        'url'  : '/pages/coming-soon'
-                    },
-                    {
-                        'id'   : 'logout',
-                        'title': 'Logout',
-                        'type' : 'item',
-                        'url'  : '/pages/coming-soon'
-                    }  
-                ]
             },
             {
-                'id'   : 'calendar',
-                'title': 'Calendar',
-                'type' : 'item',
-                'icon' : 'today',
-                'url'  : '/apps/calendar'
-            },
-            {
-                'id'   : 'mail',
-                'title': 'Mail',
+                'id'   : 'inbox',
+                'title': 'Inbox',
                 'type' : 'item',
                 'icon' : 'email',
                 'url'  : '/apps/mail',
@@ -332,30 +46,28 @@ const navigationConfig = [
                 }
             },
             {
-                'id'   : 'todo',
-                'title': 'To-Do',
+                'id'   : 'sent',
+                'title': 'Sent',
                 'type' : 'item',
-                'icon' : 'check_box',
-                'url'  : '/apps/todo',
+                'icon' : 'email',
+                'url'  : '/apps/sent',
                 'badge': {
-                    'title': 3,
-                    'bg'   : 'rgb(255, 111, 0)',
+                    'title': 25,
+                    'bg'   : '#F44336',
                     'fg'   : '#FFFFFF'
                 }
             },
             {
-                'id'   : 'file-manager',
-                'title': 'File Manager',
+                'id'   : 'poll',
+                'title': 'Poll',
                 'type' : 'item',
-                'icon' : 'folder',
-                'url'  : '/apps/file-manager'
-            },
-            {
-                'id'   : 'contacts',
-                'title': 'Contacts',
-                'type' : 'item',
-                'icon' : 'account_box',
-                'url'  : '/apps/contacts/all'
+                'icon' : 'email',
+                'url'  : '/apps/poll',
+                'badge': {
+                    'title': 25,
+                    'bg'   : '#F44336',
+                    'fg'   : '#FFFFFF'
+                }
             },
             {
                 'id'   : 'chat',
@@ -370,25 +82,18 @@ const navigationConfig = [
                 }
             },
             {
-                'id'   : 'scrumboard',
-                'title': 'Scrumboard',
-                'type' : 'item',
-                'icon' : 'assessment',
-                'url'  : '/apps/scrumboard'
-            },
-            {
-                'id'   : 'notes',
-                'title': 'Notes',
-                'type' : 'item',
-                'icon' : 'note',
-                'url'  : '/apps/notes'
-            },
-            {
                 'id'   : 'pdf',
                 'title': 'PdfKit',
                 'type' : 'item',
                 'icon' : 'today',
                 'url'  : '/apps/psppdfkit'
+            },
+            {
+                'id'   : 'logout',
+                'title': 'Logout',
+                'type' : 'item',
+                'url'  : '/logout',
+                'icon' : 'exit_to_app'
             },
         ],
         
@@ -1097,14 +802,14 @@ const navigationConfig = [
     //             auth   : authRoles.onlyGuest,
     //             'icon' : 'person_add'
     //         },
-    //         {
-    //             'id'   : 'logout',
-    //             'title': 'Logout',
-    //             'type' : 'item',
-    //             auth   : authRoles.user,
-    //             'url'  : '/logout',
-    //             'icon' : 'exit_to_app'
-    //         },
+            // {
+            //     'id'   : 'logout',
+            //     'title': 'Logout',
+            //     'type' : 'item',
+            //     auth   : authRoles.user,
+            //     'url'  : '/logout',
+            //     'icon' : 'exit_to_app'
+            // },
     //         {
     //             'id'   : 'auth-admin-example',
     //             'title': 'Admin: Auth protected page',
