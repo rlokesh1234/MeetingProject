@@ -8,93 +8,135 @@ const navigationConfig = [
             {
                 'id'      : 'dashboards',
                 'title'   : 'Dashboards',
-                'type'    : 'collapse',
-                'icon': 'assets/images/icons/dashboard.png',
-                'children': [
-                    {
-                        'id'   : 'analytics-dashboard',
-                        'title': 'Product',
-                        'type' : 'item',
-                        'url'  : '/apps/dashboards/analytics'
-                    },
-                ]
+                'type'    : 'item',
+                'icon': 'assets/images/icons/dashboard-new.png',
+                'url'  : '/apps/dashboards/analytics'
             },
             {
-                'id' : 'addSow',
-                'title':'Add SOW',
+                'id' : 'uploadDocument',
+                'title':'Upload Document',
                 'type': 'item',
-                'icon': 'assets/images/icons/reports_icons8-combo-chart-26.png',
+                'icon': 'assets/images/icons/upload-docs-new.png',
                  url:'/apps/addSow'
             },
-            
             {
-                'id' : 'Add report',
-                'title':'Add Report',
-                'type': 'collapse',
-                'icon': 'assets/images/icons/user-3-16.png',
+                'id' : 'newDocument',
+                'title':'New Document',
+                'type': 'item',
+                'icon': 'assets/images/icons/new-docs-new.png',
+                 url:'/apps/addSow',
             },
             {
-                'id'   : 'inbox',
-                'title': 'Inbox',
-                'type' : 'item',
-                'icon' : 'email',
-                'url'  : '/apps/mail',
-                'badge': {
-                    'title': 25,
-                    'bg'   : '#F44336',
-                    'fg'   : '#FFFFFF'
-                }
+                'id' : 'additionalInfo',
+                'title':'Additional Info Document',
+                'type': 'item',
+                'icon': 'assets/images/icons/info-docs-new.png',
+                 url:'/apps/addSow',
             },
             {
-                'id'   : 'sent',
-                'title': 'Sent',
-                'type' : 'item',
-                'icon' : 'email',
-                'url'  : '/apps/sent',
-                'badge': {
-                    'title': 25,
-                    'bg'   : '#F44336',
-                    'fg'   : '#FFFFFF'
-                }
+                'id' : 'approvedDoc',
+                'title':'Approved Document',
+                'type': 'item',
+                'icon': 'assets/images/icons/approved-docs-nwq.png',
+                 url:'/apps/addSow',
+            },
+            {
+                'id' : 'rejected',
+                'title':'Rejected Document',
+                'type': 'item',
+                'icon': 'assets/images/icons/rejected-docs-new.png',
+                 url:'/apps/addSow',
             },
             {
                 'id'   : 'poll',
                 'title': 'Poll',
                 'type' : 'item',
-                'icon' : 'email',
+                'icon' : 'assets/images/icons/poll-new.png',
                 'url'  : '/apps/poll',
-                'badge': {
-                    'title': 25,
-                    'bg'   : '#F44336',
-                    'fg'   : '#FFFFFF'
-                }
             },
             {
                 'id'   : 'chat',
                 'title': 'Chat',
                 'type' : 'item',
-                'icon' : 'chat',
+                'icon' : 'assets/images/icons/chat-new.png',
                 'url'  : '/apps/chat',
-                'badge': {
-                    'title': 13,
-                    'bg'   : 'rgb(9, 210, 97)',
-                    'fg'   : '#FFFFFF'
-                }
             },
-            {
-                'id'   : 'pdf',
-                'title': 'PdfKit',
-                'type' : 'item',
-                'icon' : 'today',
-                'url'  : '/apps/psppdfkit'
-            },
-            {
-                'id'   : 'logout',
-                'title': 'Logout',
-                'type' : 'item',
-                'url'  : '/logout',
-                'icon' : 'exit_to_app'
-            },
+            // {
+            //     'id' : 'addSow',
+            //     'title':'Add SOW',
+            //     'type': 'item',
+            //     'icon': 'assets/images/icons/reports_icons8-combo-chart-26.png',
+            //      url:'/apps/addSow'
+            // },
+            
+            // {
+            //     'id' : 'Add report',
+            //     'title':'Add Report',
+            //     'type': 'item',
+            //     'icon': 'assets/images/icons/user-3-16.png',
+            // },
+            // {
+            //     'id'   : 'inbox',
+            //     'title': 'Inbox',
+            //     'type' : 'item',
+            //     'icon' : 'email',
+            //     'url'  : '/apps/mail',
+            //     'badge': {
+            //         'title': 25,
+            //         'bg'   : '#F44336',
+            //         'fg'   : '#FFFFFF'
+            //     }
+            // },
+            // {
+            //     'id'   : 'sent',
+            //     'title': 'Sent',
+            //     'type' : 'item',
+            //     'icon' : 'email',
+            //     'url'  : '/apps/sent',
+            //     'badge': {
+            //         'title': 25,
+            //         'bg'   : '#F44336',
+            //         'fg'   : '#FFFFFF'
+            //     }
+            // },
+            // {
+            //     'id'   : 'poll',
+            //     'title': 'Poll',
+            //     'type' : 'item',
+            //     'icon' : 'assets/images/icons/poll-new.png',
+            //     'url'  : '/apps/poll',
+            //     'badge': {
+            //         'title': 25,
+            //         'bg'   : '#F44336',
+            //         'fg'   : '#FFFFFF'
+            //     }
+            // },
+            // {
+            //     'id'   : 'chat',
+            //     'title': 'Chat',
+            //     'type' : 'item',
+            //     'icon' : 'assets/images/icons/chat-new.png',
+            //     'url'  : '/apps/chat',
+            //     'badge': {
+            //         'title': 13,
+            //         'bg'   : 'rgb(9, 210, 97)',
+            //         'fg'   : '#FFFFFF'
+            //     }
+            // },
+            // {
+            //     'id'   : 'pdf',
+            //     'title': 'PdfKit',
+            //     'type' : 'item',
+            //     'icon' : 'today',
+            //     'url'  : '/apps/psppdfkit'
+            // },
+            // {
+            //     'id'   : 'logout',
+            //     'title': 'Logout',
+            //     'type' : 'item',
+            //     'url'  : '/logout',
+            //     'icon' : 'exit_to_app'
+            // },
         ],
         
     },

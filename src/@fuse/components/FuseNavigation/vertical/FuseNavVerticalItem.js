@@ -27,9 +27,7 @@ const styles = theme => ({
         borderRadius               : '0 20px 20px 0',
         paddingRight               : 12,
         '&.active'                 : {
-            backgroundColor            : theme.palette.secondary.main,
             color                      : theme.palette.secondary.contrastText + '!important',
-            pointerEvents              : 'none',
             transition                 : 'border-radius .15s cubic-bezier(0.4,0.0,0.2,1)',
             '& .list-item-text-primary': {
                 color: 'inherit'
@@ -71,7 +69,7 @@ function FuseNavVerticalItem({item, classes, nestedLevel, userRole, navbarCloseM
             exact={item.exact}
         >
           {item.icon && (
-                <Icon className="list-item-icon text-16 flex-no-shrink" color="action">{item.icon}</Icon>
+                <img className="" src={item.icon}/>
             )}
             <ListItemText className="list-item-text" primary={item.title} classes={{primary: 'text-14 list-item-text-primary'}}/>
             {item.badge && (
